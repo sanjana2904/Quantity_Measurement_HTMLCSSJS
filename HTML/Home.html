@@ -19,16 +19,16 @@
                     <div class="choosebody">
                         choose type</div>
               <div class = "ThreeCardBox">
-                <div class ="Box1"> 
+                <div class ="Box1" onclick="selectLength()"> 
                     <img src ="../Asset/Pic4.png" ></img>
                     Length
                 </div>
 
-               <div class ="Box2">
+               <div class ="Box2" onclick="selectTemperature()">
                 <img src ="../Asset/Pic5.png" ></img>
                 Temperature
                </div>
-            <div class ="Box3">
+            <div class ="Box3" onclick="selectVolume()">
                 <img src ="../Asset/Pic7.png" ></img>
                 Volume
             </div>
@@ -37,31 +37,15 @@
             <div class="form">
                 <div class="from">
                     <h3>from</h3>
-                    <input type="number" id="input" onchange="Convert()">
-                    <select id="select1" onchange="Convert()">
-                            <option>Meter</option>`
-                            <option>Centimeter</option> 
-                            <option>Millimeter</option>
-                            <option>Kilometer</option>
-                            <option>Mile</option>
-                            <option>Micrometer</option>
-                            <option>Foot</option>
-                            <option>Inch</option>
-                       </select>
+                    <input type="number" id="input">
+                  <select id="select1">
+                       </select>     
                      </div>
                       <div class="to">
                     <h4>to</h4>
                     <input type="number" id="output">
-                    <select id="select2" onchange="Convert()">
-                        <option>Meter</option>`
-                            <option>Centimeter</option> 
-                            <option>Millimeter</option>
-                            <option>Kilometer</option>
-                            <option>Mile</option>
-                            <option>Micrometer</option>
-                            <option>Foot</option>
-                            <option>Inch</option>
-                  </select>
+                  <select id="select2">
+                  </select>       
                 </div>
                 </div>
         </div> 
