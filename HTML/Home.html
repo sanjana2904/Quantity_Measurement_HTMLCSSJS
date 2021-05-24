@@ -7,20 +7,17 @@
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     </head>
     <body>
-           <div class ="header">
-                <h3>Quanment<h4>
-            <h4>History</h4>
+                  <div class ="header">
+               <div>Quanment</div> 
+           <div>History</div> 
        </div>   
-
-             <div id="welcome">
+           <div id="welcome">
                 <h1>Welcome to Quantity Measurement</h1>
                 </div>
                       
                 <div class="main">
-                    <div class="choosebox">
+                    <div class="choosebody">
                         choose type</div>
-            
-
               <div class = "ThreeCardBox">
                 <div class ="Box1"> 
                     <img src ="../Asset/Pic4.png" ></img>
@@ -40,8 +37,8 @@
             <div class="form">
                 <div class="from">
                     <h3>from</h3>
-                    <input type="number" id="input">
-                    <select id="select1">
+                    <input type="number" id="input" onchange="Convert()">
+                    <select id="select1" onchange="Convert()">
                             <option>Meter</option>`
                             <option>Centimeter</option> 
                             <option>Millimeter</option>
@@ -55,7 +52,15 @@
                       <div class="to">
                     <h4>to</h4>
                     <input type="number" id="output">
-                    <select id="select2">
+                    <select id="select2" onchange="Convert()">
+                        <option>Meter</option>`
+                            <option>Centimeter</option> 
+                            <option>Millimeter</option>
+                            <option>Kilometer</option>
+                            <option>Mile</option>
+                            <option>Micrometer</option>
+                            <option>Foot</option>
+                            <option>Inch</option>
                   </select>
                 </div>
                 </div>
