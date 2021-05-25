@@ -148,7 +148,7 @@ body {
     font-weight: bold; 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .form{
         flex-direction: column;
         align-items: center;
@@ -161,25 +161,4 @@ body {
     .to{
         margin-left: 0px;
 } 
-   #welcome {
-    text-transform: capitalize;
-    font-size: 33px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: cornflowerblue;
-    font-size: 2mm;
-    color: #F5F6FA;
-    text-align: center;
-   }
-   .choosebody {
-       padding-top: 25px;
-       padding-left: 30%;
-       text-transform: uppercase;
-       font-weight: bold;
-   }
 }
